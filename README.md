@@ -1,13 +1,13 @@
-This project is used to learn the go language and 
-also create a simple cli to help me switch the different openshift test environment
+# oclogin cli introduction!
 
-How to use it?
+This project is used to learn the go language and also create a simple cli to help me switch the different openshift test environment
 
-Build the project
-go build
+# How to use it?
 
-Run the generated binary oclogin
+Build the project with the command **go build**
 
+Run the generated binary **oclogin** to get more help info: 
+```
 This script is used to switch the openshift environment easier. For example:
 
 oclogin env-1 or oclogin env-2.
@@ -29,3 +29,4 @@ Flags:
 -t, --toggle          Help message for toggle
 
 Use "oclogin [command] --help" for more information about a command.
+```
