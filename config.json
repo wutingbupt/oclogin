@@ -1,0 +1,22 @@
+{
+  "clusters": [
+    {
+      "id" : "lab1",
+      "description": "lab1 cluster",
+      "cluster_url": "https://lab1:8443",
+      "user": "abc",
+      "password": "def",
+      "default_project": "lab1-default-project",
+      "current_context" : true
+    },
+    {
+      "id" : "lab2",
+      "description": "lab2 cluster",
+      "cluster": "https://lab2:8443",
+      "user": "abc",
+      "password": "def",
+      "default_project": "lab2-default-project",
+      "current_context": false
+    }
+  ]
+}
